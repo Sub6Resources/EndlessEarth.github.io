@@ -1,9 +1,10 @@
 //Copyright (c) 2016 Sub 6 Resources
 //EndlessEarth is a website of Sub Resources
 * {
-margin:0;
-padding:0;
-background-color:#ded;
+    margin:0;
+    padding:0;
+    background-color:#ded;
+    font-family: Roboto, sans-serif;
 }
 #head {
     background-color:#001E8D;
@@ -12,7 +13,6 @@ background-color:#ded;
     padding-bottom:7px;
     padding-left:5px;
     color:white;
-    font-family: Roboto, sans-serif;
     font-weight:300;
     font-size:35px;
 }
