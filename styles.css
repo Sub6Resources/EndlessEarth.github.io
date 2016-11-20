@@ -7,7 +7,9 @@ padding:0;
 #head {
     background-color:#001E8D;
     width:100%;
-    margin-top:7px;
-    margin-bottom:7px;
-    margin-left:5px;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:5px;
+    color:white;
+    font-family: roboto, sans-serif;
 }
