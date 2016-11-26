@@ -40,5 +40,8 @@ body {
 }
 a {
     color:inherit;
-    text-decoration:underline;
+    font-weight:bold;
+}
+#head > a {
+    font-weight:inherit;
 }
