@@ -23,7 +23,7 @@ body {
     box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
 }
 #foot {
-    position:absolute;
+    //position:absolute;
     bottom:0;
     width:100%;
     text-align:center;
