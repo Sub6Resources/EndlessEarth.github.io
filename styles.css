@@ -45,3 +45,8 @@ a {
 #head > a {
     font-weight:inherit;
 }
+#action-buttons {
+    position:absolute;
+    top:0;
+    right:2px;
+}
