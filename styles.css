@@ -5,7 +5,7 @@
 body {
     margin:0;
     padding:0;
-    background-color:#ded;
+    background-color:#eee;
     font-family: 'Roboto', sans-serif;
 }
 #head {
@@ -30,7 +30,5 @@ body {
     color:white;
 }
 #content {
-    font-family: 'Roboto', sans-serif;
-    color:#222;
-    background-color:#ded;
+    padding-left:3px;
 }
