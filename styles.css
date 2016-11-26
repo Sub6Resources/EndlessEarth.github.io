@@ -34,7 +34,7 @@ body {
     padding-left:3px;
 }
 #subtitle {
-    font-size:12px !important;
+    font-size:12px;
 }
 a {
     color:inherit;
