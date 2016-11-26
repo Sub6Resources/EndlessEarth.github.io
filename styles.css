@@ -33,3 +33,10 @@ body {
 #content {
     padding-left:3px;
 }
+#subtitle {
+    font-size:12px !important;
+}
+a {
+    color:inherit;
+    font-weight:bold;
+}
