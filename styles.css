@@ -18,6 +18,7 @@ body {
     color:white;
     font-weight:300;
     font-size:35px;
+    box-shadow:1px, 1px, 1px, #000;
 }
 #foot {
     position:absolute;
