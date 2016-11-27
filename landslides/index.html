@@ -21,9 +21,9 @@ $(document).ready(function () {
         var tr;
         for (var i = 0; i < json.length; i++) {
             tr = $('<tr/>');
-            tr.append("<td>" + json[i].User_Name + "</td>");
-            tr.append("<td>" + json[i].score + "</td>");
-            tr.append("<td>" + json[i].team + "</td>");
+            tr.append("<td>" + json[i].the_geom + "</td>");
+            tr.append("<td>" + json[i].OBJECTID + "</td>");
+            tr.append("<td>" + json[i].id + "</td>");
             $('table').append(tr);
         }
     });
@@ -33,7 +33,7 @@ $(document).ready(function () {
 <div id="head"><a href="/">EndlessEarth</a><br /><span id="subtitle">Landslides </span></div>
 <div id="content">
 <table>
-<tr></tr>
+<tr><th>the_geom </th><th>OBJECTID</th><th>id </th></tr>
 </table>
 </div>
 <div id="foot">&copy; 2016 Sub 6 Resources&trade; </div>
