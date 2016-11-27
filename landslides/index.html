@@ -27,6 +27,10 @@ $(document).ready(function () {
             tr.append("<td>" + json[i].date_ + "</td>");
             tr.append("<td>" + json[i].time_ + "</td>");
             tr.append("<td>" + json[i].country + "</td>");
+tr.append("<td>" + json[i].nearest_pl + "</td>");
+tr.append("<td>" + json[i].hazard_typ + "</td>");
+tr.append("<td>" + json[i].landslide_ + "</td>");
+tr.append("<td>" + json[i].trigger + "</td>");
             $('table').append(tr);
         }
     });
@@ -37,7 +41,8 @@ $(document).ready(function () {
 <div id="content">
 <table>
 <tr><th>the_geom </th><th>OBJECTID</th><th>id </th>
-<th>date_</th><th>time_</th><th>country </th></tr>
+<th>date_</th><th>time_</th><th>country </th>
+<th>nearest_pl</th><th>hazard_typ </th><th>landslide_</th><th>trigger </th></tr>
 </table>
 </div>
 <div id="foot">&copy; 2016 Sub 6 Resources&trade; </div>
