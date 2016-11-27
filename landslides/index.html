@@ -31,6 +31,9 @@ tr.append("<td>" + json[i].nearest_pl + "</td>");
 tr.append("<td>" + json[i].hazard_typ + "</td>");
 tr.append("<td>" + json[i].landslide_ + "</td>");
 tr.append("<td>" + json[i].trigger + "</td>");
+tr.append("<td>" + json[i].storm_name + "</td>");
+tr.append("<td>" + json[i].fatalities + "</td>");
+tr.append("<td>" + json[i].injuries + "</td>");
             $('table').append(tr);
         }
     });
@@ -46,7 +49,8 @@ The Global Landslide Catalog (GLC) was developed with the goal of identifying ra
 <table>
 <tr><th>the_geom </th><th>OBJECTID</th><th>id </th>
 <th>date_</th><th>time_</th><th>country </th>
-<th>nearest_pl</th><th>hazard_typ </th><th>landslide_</th><th>trigger </th></tr>
+<th>nearest_pl</th><th>hazard_typ </th><th>landslide_</th><th>trigger </th>
+<th>storm_name</th><th>fatalities </th><th>injuries </th></tr>
 </table>
 </div>
 <div id="foot">&copy; 2016 Sub 6 Resources&trade; </div>
