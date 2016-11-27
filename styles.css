@@ -54,3 +54,9 @@ a {
     right:2px;
     font-size:31px;
 }
+table {
+    background-color:#ddd;
+}
+th {
+    background-color:#ccc;
+}
