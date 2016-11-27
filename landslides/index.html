@@ -24,6 +24,9 @@ $(document).ready(function () {
             tr.append("<td>" + json[i].the_geom + "</td>");
             tr.append("<td>" + json[i].OBJECTID + "</td>");
             tr.append("<td>" + json[i].id + "</td>");
+            tr.append("<td>" + json[i].date_ + "</td>");
+            tr.append("<td>" + json[i].time_ + "</td>");
+            tr.append("<td>" + json[i].country + "</td>");
             $('table').append(tr);
         }
     });
@@ -33,7 +36,8 @@ $(document).ready(function () {
 <div id="head"><a href="/">EndlessEarth</a><br /><span id="subtitle">Landslides </span></div>
 <div id="content">
 <table>
-<tr><th>the_geom </th><th>OBJECTID</th><th>id </th></tr>
+<tr><th>the_geom </th><th>OBJECTID</th><th>id </th>
+<th>date_</th><th>time_</th><th>country </th></tr>
 </table>
 </div>
 <div id="foot">&copy; 2016 Sub 6 Resources&trade; </div>
